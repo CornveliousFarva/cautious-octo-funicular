@@ -3,7 +3,7 @@ const container = document.querySelector('.container')
 const unsplashUrl = 'https://source.unsplash.com/random/'
 
 // Loop though the image source and append the container to add the images
-for(let i = 0; i < tows * 3; i++) {
+for(let i = 0; i < rows * 3; i++) {
     const img = document.createElement('img')
     img.src = `${unsplashUrl}${getRandomSize()}`
     container.appendChild(img)
