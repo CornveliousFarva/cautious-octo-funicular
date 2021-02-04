@@ -1,6 +1,7 @@
 // Variable declarations for the container and the image source url
 const container = document.querySelector('.container')
 const unsplashUrl = 'https://source.unsplash.com/random/'
+const rows = 5
 
 // Loop though the image source and append the container to add the images
 for(let i = 0; i < rows * 3; i++) {
